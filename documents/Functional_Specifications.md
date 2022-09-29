@@ -1,6 +1,6 @@
 # Functional Specifications
 
-## Stakeolders
+### Stakeolders
 
 | Person/Organization | Role              |
 | ------------------- | ----------------- |
@@ -14,24 +14,34 @@
 
 ---
 
-### Table of contents
+#### Table of contents
 
 - [Functional Specifications](#functional-specifications)
-  - [Stakeolders](#stakeolders)
-    - [Table of contents](#table-of-contents)
+    - [Stakeolders](#stakeolders)
+      - [Table of contents](#table-of-contents)
     - [1. Overview](#1-overview)
-    - [2. Project Target](#2-project-target)
-    - [3. Requirement Specifications](#3-requirement-specifications)
-      - [3.1. Device Overview](#31-device-overview)
-    - [4. Development Environement and Requirements](#4-development-environement-and-requirements)
-    - [5. Glosary](#5-glosary)
+    - [2. Scenarios](#2-scenarios)
+    - [3. Project Target](#3-project-target)
+    - [4. Requirement Specifications](#4-requirement-specifications)
+      - [4.1. Device Overview](#41-device-overview)
+    - [5. Non goals](#5-non-goals)
+    - [6. Development Environement and Requirements](#6-development-environement-and-requirements)
+    - [7. Glosary](#7-glosary)
 
 ### 1. Overview
 
 The goal of the project is to provide to SignAll[^1] a new product for them, that will make their signage smart by being connected. The name of this project is Appsolu.
 Nowadays, their existing products are not connected therefore users must be on-site to know if the signage is on, functional, or out of order. Also, users cannot switch the signage on/off remotely.
 
-### 2. Project Target
+### 2. Scenarios
+
+**Scenario 1: Leïla**
+Leïla works at the McDonald's near her home as a cook. With her teammates, they are ready to open, but they are 10 minutes early and customers are waiting for the opening. Then, they want to open the fast-food but they don't have any remote to switch on the signage. They try to contact their director, and the director, with a message, can activate the signage.
+
+**Scénario 2: Marc**
+Marc works in an office as a simple employee. The weather is sunny and the signage is on. He want to switch off lights or reduce the lighting. With his phone, he can send a message to reduce or switch of the light. Thanks to this, he was able to carry out an ecological act and thus reduce unnecessary consumption.
+
+### 3. Project Target
 
 For this product, we want to receive a message to see remotely the signage status in real time.
 The main features of the project are:
@@ -40,22 +50,32 @@ The main features of the project are:
 - A remote control of the signage like switching on/off, using a dimmable light bulb.
 - A consumption reduction and compliance with environmental laws like switching off at given time, adjust intensity based on ambient lighting.
 
-### 3. Requirement Specifications
+We want to add another features like:
+- Statistics about lights and their overheating.
+- Send a message to an employee or every employees to inform then about the status of lights and prepare an intervention to fix the issue.
 
-#### 3.1. Device Overview
+### 4. Requirement Specifications
+
+#### 4.1. Device Overview
 
 As written in the project target, the application should be able to provide many informations like if the signage is on, functional, or out of order and switch the signage on/off remotely.
 
 The device will have a power switch control board, LEDs[^2], ambient light sensor, temperature sensor, inductive current sensor, current sensor
 
-### 4. Development Environement and Requirements
+### 5. Non goals
+
+Here are some ideas that weren't created:
+- Render the project as an application.
+- Having a remote control.
+
+### 6. Development Environement and Requirements
 
 - Go[^3]
   - TinyGo[^4]
 - MacOSx/Windows on development
 - Arduino[^5] on production environment
 
-### 5. Glosary
+### 7. Glosary
 
 [^1]: SignAll
 It's a French company that has been manufacturing large luminous signage since 1962. They supply a large number of customers such as McDonald’s, Burger King, La Poste, Orange, AXA, Crédit Agricole, Total, etc. to name a few.
