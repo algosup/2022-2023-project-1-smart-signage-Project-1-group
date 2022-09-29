@@ -35,11 +35,9 @@ Nowadays, their existing products are not connected therefore users must be on-s
 
 ### 2. Scenarios
 
-**Scenario 1: Leïla**
-Leïla works at the McDonald's near her home as a cook. With her teammates, they are ready to open, but they are 10 minutes early and customers are waiting for the opening. Then, they want to open the fast-food but they don't have any remote to switch on the signage. They try to contact their director, and the director, with a message, can activate the signage.
+**Scenario 1: Leïla** works at the McDonald's near her home as a cook. With her teammates, they are ready to open, but they are 10 minutes early and customers are waiting for the opening. Then, they want to open the fast-food but they don't have any remote to switch on the signage. They try to contact their director, and the director, with a message, can activate the signage.
 
-**Scénario 2: Marc**
-Marc works in an office as a simple employee. The weather is sunny and the signage is on. He want to switch off lights or reduce the lighting. With his phone, he can send a message to reduce or switch of the light. Thanks to this, he was able to carry out an ecological act and thus reduce unnecessary consumption.
+**Scénario 2: Marc** works in an office as a simple employee. The weather is sunny and the signage is on. He want to switch off lights or reduce the lighting. With his phone, he can send a message to reduce or switch of the light. Thanks to this, he was able to carry out an ecological act and thus reduce unnecessary consumption.
 
 ### 3. Project Target
 
