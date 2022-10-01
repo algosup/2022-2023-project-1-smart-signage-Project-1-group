@@ -1,6 +1,6 @@
 # Functional Specifications
 
-### Stakeolders
+## Stakeolders
 
 | Person/Organization | Role              |
 | ------------------- | ----------------- |
@@ -14,11 +14,11 @@
 
 ---
 
-#### Table of contents
+## Table of contents
 
 - [Functional Specifications](#functional-specifications)
-    - [Stakeolders](#stakeolders)
-      - [Table of contents](#table-of-contents)
+  - [Stakeolders](#stakeolders)
+  - [Table of contents](#table-of-contents)
     - [1. Overview](#1-overview)
     - [2. Scenarios](#2-scenarios)
     - [3. Project Target](#3-project-target)
@@ -49,6 +49,7 @@ The main features of the project are:
 - A consumption reduction and compliance with environmental laws like switching off at given time, adjust intensity based on ambient lighting.
 
 We want to add another features like:
+
 - Statistics about lights and their overheating.
 - Send a message to an employee or every employees to inform then about the status of lights and prepare an intervention to fix the issue.
 
@@ -63,6 +64,7 @@ The device will have a power switch control board, LEDs[^2], ambient light senso
 ### 5. Non goals
 
 Here are some ideas that weren't created:
+
 - Render the project as an application.
 - Having a remote control.
 
@@ -75,17 +77,12 @@ Here are some ideas that weren't created:
 
 ### 7. Glosary
 
-[^1]: SignAll
-It's a French company that has been manufacturing large luminous signage since 1962. They supply a large number of customers such as McDonald’s, Burger King, La Poste, Orange, AXA, Crédit Agricole, Total, etc. to name a few.
+[^1]: SignAll is a French company that has been manufacturing large luminous signage since 1962. They supply a large number of customers such as McDonald’s, Burger King, La Poste, Orange, AXA, Crédit Agricole, Total, etc. to name a few.
 
-[^2]: LED
-A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it.
+[^2]: LED means light-emitting diode. It is a semiconductor light source that emits light when current flows through it.
 
-[^3]: Go
-Go is a compiled and concurrent programming language inspired by other languages (C and Pascal). This language was developed by Google.
+[^3]: Go is a compiled and concurrent programming language inspired by other languages (C and Pascal). This language was developed by Google.
 
-[^4]: TinyGo
-It brings the Go programming language to embedded systems and to the modern web by creating a new compiler. You can compile and run TinyGo programs on a wide variety of platforms, including microcontrollers, web browsers, and servers.
+[^4]: TinyGo brings the Go programming language to embedded systems and to the modern web by creating a new compiler. You can compile and run TinyGo programs on a wide variety of platforms, including microcontrollers, web browsers, and servers.
 
-[^5]: Arduino
-Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
+[^5]: Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
