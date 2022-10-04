@@ -27,6 +27,7 @@
     - [3. Data](#3-data)
       - [3.1. Data storage](#31-data-storage)
       - [3.2. Data composition](#32-data-composition)
+    - [4. Glosary](#4-glosary)
 
 </details>
 
@@ -36,7 +37,7 @@
 
 #### 1.1. Main device
 
-It is designed to be hosted on a LoRa-E5 development kit which is a compact and easy to use development toolkit. It consists of a LoRa-E5 development board, an antenna (EU868), a USB cable.
+It is designed to be hosted on a LoRa-E5 development kit which is a compact and easy to use development toolkit. It consists of a LoRa-E5 development board, an antenna (EU868), a USB cable. 
 
 #### 1.2. Modules
 
@@ -53,7 +54,7 @@ The main device is composed of the following modules:
 
 #### 2.1. Language
 
-We are going to use Go language and the framework [TinyGo](https://tinygo.org/) to develop the project. TinyGo is a Go compiler for small places. It compiles Go programs to small executables that can be run on microcontrollers, WebAssembly, and command-line tools.
+We are going to use Go language and the framework [TinyGo](https://tinygo.org/) to develop the project. TinyGo is a Go compiler for small places. It compiles Go programs to small executables that can be run on microcontrollers, WebAssembly, and command-line tools. It is based on LLVM[^1], so it supports a wide range of microcontrollers and other platforms.
 
 #### 2.2. Output
 
@@ -74,3 +75,6 @@ The data will be composed by the following fields:
 - Device consumption
 - Device problem
 
+### 4. Glosary
+
+[^1]: [LLVM](https://en.wikipedia.org/wiki/LLVM) is a compiler infrastructure project that includes a collection of modular and reusable compiler and toolchain technologies. The name LLVM originally stood for Low Level Virtual Machine.
