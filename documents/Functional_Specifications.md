@@ -12,9 +12,10 @@
 | Nicolas MIDA        | Software Engineer |
 | Audrey TELLIEZ      | Quality Assurance |
 
-<hr>
+---
 
-<details><summary>Table of contents</summary>
+<details close>
+<summary>Table of contents</summary><blockquote>
 
 - [Functional Specifications](#functional-specifications)
   - [Stakeolders](#stakeolders)
@@ -31,7 +32,7 @@
 
 </details>
 
-<hr>
+---
 
 ### 1. Overview
 
