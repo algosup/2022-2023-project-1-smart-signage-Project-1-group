@@ -12,13 +12,12 @@
 | Nicolas MIDA        | Software Engineer |
 | Audrey TELLIEZ      | Quality Assurance |
 
----
+<hr>
 
-## Table of contents
+<details><summary>Table of contents</summary>
 
 - [Functional Specifications](#functional-specifications)
   - [Stakeolders](#stakeolders)
-  - [Table of contents](#table-of-contents)
     - [1. Overview](#1-overview)
     - [2. Scenarios](#2-scenarios)
     - [3. Project Target](#3-project-target)
@@ -27,6 +26,10 @@
     - [5. Non goals](#5-non-goals)
     - [6. Development Environement and Requirements](#6-development-environement-and-requirements)
     - [7. Glosary](#7-glosary)
+
+</details>
+
+<hr>
 
 ### 1. Overview
 
