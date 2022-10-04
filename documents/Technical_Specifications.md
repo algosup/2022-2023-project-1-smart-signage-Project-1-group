@@ -64,7 +64,7 @@ We are going to show the status of the signage on a web page. The web page will 
 
 #### 3.1. Data storage
 
-The data will be stored on the TTN server.
+The data will be stored on the TTN server. The data will be accessible from anywhere and will be used to display the status of the signage.
 
 #### 3.2. Data composition
 
@@ -72,4 +72,5 @@ The data will be composed by the following fields:
 - Device ID
 - Device status
 - Device consumption
+- Device problem
 
