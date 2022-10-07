@@ -73,7 +73,7 @@ We want to add another features like:
 
 #### 4.1. Device Overview
 
-As written in the project target, the application should be able to provide many informations like if the signage is on, functional, or out of order and switch the signage on/off remotely.
+As written in the project target, the application should be able to provide many informations like if the signage is on, functional, or out of order and we will need to be able to switch the signage on/off remotely.
 
 The device will have a power switch control board, LEDs[^2], ambient light sensor, temperature sensor, inductive current sensor, current sensor
 
