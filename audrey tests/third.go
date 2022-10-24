@@ -1,9 +1,9 @@
-// on /off  for ligths
+// on / off  for ligths
 
 package main
 
 var LEDS = [5]bool{true, true, true, true, true}
-var light = string("ON")
+var light int 
 
 // a refaire 
 
