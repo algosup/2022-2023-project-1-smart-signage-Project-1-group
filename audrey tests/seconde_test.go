@@ -1,15 +1,15 @@
 package main
 
-// a refaire 
-
 import "testing"
+import "fmt"
+import "math/rand"
 
 func TestLight2(t *testing.T) {
-	got := 
-	want := 
+	got := rand.Intn(10, 100),
+	want := 10
 	for c := 0; c < len(LEDS); c++ {
-		if got[c]!= want[c]{
-			return Error ("leds éteinte ")
+		if got[c]<= wan {
+			return Error ("leds off ")
 		}
 	}
 }
