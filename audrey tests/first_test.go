@@ -8,3 +8,6 @@ func TestLight1(t *testing.T) {
 		return t.Error("LED's are off")
 	}
 }
+func main() {
+	TestLight1()
+}
