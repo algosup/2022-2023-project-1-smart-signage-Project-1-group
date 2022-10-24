@@ -108,7 +108,7 @@ The data will be composed by the following fields:
 
 ### 4.3 Tests
 
-Here is a link to the [board test](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/Board_Test.md)
+Here is a link to the [test](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/tests/) folder with a *test plan* markdown and a *bug order* markdown.
 
 ## 5. Glosary
 
