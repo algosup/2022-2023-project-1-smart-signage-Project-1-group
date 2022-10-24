@@ -19,6 +19,5 @@ func Light2(LEDS){
 }
 
 func main() {
-
 	light2()
 }

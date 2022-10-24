@@ -1,6 +1,7 @@
 package main
 
 var actualtime float32 = 15.58
+
 // var startTime float32 = 8.00
 // var endTime float32 = 19.30
 
