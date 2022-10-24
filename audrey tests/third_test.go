@@ -2,6 +2,8 @@ package main
 
 import "testing"
 
+// a refaire 
+
 func TestLight3(t *testing.T) {
 	if  light == "ON"{
 		got := {true,true,true,true,true}

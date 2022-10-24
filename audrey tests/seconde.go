@@ -1,4 +1,7 @@
+//see if a light is not working when it is supposed to be on 
 package main
+
+// a refaire 
 
 var LEDS = [5]bool{true, true, true, false, true}
 

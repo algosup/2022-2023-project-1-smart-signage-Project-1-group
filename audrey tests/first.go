@@ -1,3 +1,5 @@
+// turn off or turn on according to the time of day
+
 package main
 
 var actualtime float32 = 15.58
