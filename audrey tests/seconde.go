@@ -9,6 +9,10 @@ func Light2(LEDS){
 			return Error ("une des LEDS est eteinte ")
 			for c := 0; c < len(LEDS); c++ {
 				LEDS[c]:= false
+				return LEDS
+		}
+		else{
+			return LEDS 
 		}
 	}
 	}
