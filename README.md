@@ -8,9 +8,9 @@
 
 ## Documents
 
-- [Functionnal Specifications](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/documents/documents/Functional_Specifications.md)
+- [Functionnal Specifications](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/Functional_Specifications.md)
 
-- [Technical Specifications](xxx)
+- [Technical Specifications](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/Technical_Specifications.md)
 
 ## Retro Planning
 
@@ -19,13 +19,18 @@
   - [x] Create a Trello board
   - [x] Searching informations about the software
 - 2nd week
-  - [ ] Technical Specifications
-- 3rd week
-- 4th week
+  - [x] Functional Specifications Verification
+  - [x] Technical Specifications
+  - [x] Flash on Bluepill
+- 3rd & 4th week
+  - [ ] Flash on LoRa-E5
+  - [ ] Work on the software
 - 5th week
-- 6th week
-  - [ ] Mandatory date
+  - [ ] Functional Specifications 2.0
+  - [ ] Technical Specifications 2.0
+  - [ ] Finish the project
+  - [ ] Oral presentation
 
 ## Contributors
 
-[![contributors](https://contrib.rocks/image?repo=algosup/2022-2023-project-1-smart-signage-Project-1-group)](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=algosup/2022-2023-project-1-smart-signage-Project-1-group)](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/graphs/contributors)
