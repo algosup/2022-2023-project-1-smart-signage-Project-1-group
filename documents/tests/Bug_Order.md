@@ -1,13 +1,13 @@
 #### - Bug Order - 
 
 | Bug ID  | Where is the bug ?   |   Priority (from 1 the lowest to 3 the highest) | Status |
-|:---:|:---:|:--:|:--:|:---:|
-|   1  |   Flash to the Bluepill   |  2   | Done |
-|   2  |   Use LoRa-E5             |  3   |      |
-|   3  |   Use ST-Link V2          |  1   |      |
-|   4  |                           |      |      |
-|   5  |                           |      |      |
-|   6  |                           |      |      |
+|:----:|:-------------------------:|:----:|:-------:|
+|   1  |   Flash to the Bluepill   |  2   | Planned |
+|   2  |   Use LoRa-E5             |  3   |         |
+|   3  |   Use ST-Link V2          |  1   |         |
+|   4  |                           |      |         |
+|   5  |                           |      |         |
+|   6  |                           |      |         |
 
 ---
 
