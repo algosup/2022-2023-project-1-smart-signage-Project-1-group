@@ -6,51 +6,38 @@ import (
 	"time"
 )
 
-// Creating a function to blink the led. As input we pass the pin number and the delay time
-func blinkLed() {
-	led := machine.A12
-	led.Configure(machine.PinConfig{Mode: machine.PinOutput})
-	for {
-		led.High()
-		time.Sleep(time.Second)
-		led.Low()
-		time.Sleep(time.Second)
-	}
+// Create a struct to define a new sensor
+type Sensor struct {
+	pin machine.Pin
 }
 
-// Creating a function to Light On the LED.
-func ledON() {
-	led := machine.A12
-	led.Configure(machine.PinConfig{Mode: machine.PinOutput})
-	led.High()
+// Function to create a new sensor
+func newSensor(pin int) *Sensor {
+	sensor := machine.Pin(pin)
+	sensor.Configure(machine.PinConfig{Mode: machine.PinInput})
+	return &Sensor{pin: sensor}
 }
 
-// Creating a function to Turn Off the LED.
-func ledOFF() {
-	led := machine.A12
-	led.Configure(machine.PinConfig{Mode: machine.PinOutput})
-	led.Low()
+// Function to get the value of the sensor
+func (sensor *Sensor) getValue() bool {
+	return sensor.pin.Get()
 }
 
-// Creating a function to print the value of the A7 pin
-func printA7() {
-	a7 := machine.A7
-	a7.Configure(machine.PinConfig{Mode: machine.PinInput})
-	for {
-		fmt.Println(a7.Get())
-		time.Sleep(time.Second)
-	}
+// Function to print the value of the sensor
+func (sensor *Sensor) printValue() {
+	fmt.Println(sensor.getValue())
 }
 
-// Function that return the current time in the format: 2019-01-23 23:00:00.000000000 +0000 UTC m=+0.000000001
-func getTime() string {
-	return time.Now().String()
+// Function to print the current time
+func printTime() {
+	fmt.Println(time.Now())
 }
 
 func main() {
-	//blinkLed()
-	//ledON()
-	ledOFF()
-	//printA7()
-	fmt.Println(getTime())
+	sensor := newSensor(7)
+	for {
+		sensor.printValue()
+		printTime()
+		time.Sleep(time.Second)
+	}
 }
