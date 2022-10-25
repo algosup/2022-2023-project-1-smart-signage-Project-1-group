@@ -2,13 +2,12 @@
 
 | Bug ID  | Where is the bug ?   |   Priority (from 1 the lowest to 3 the highest) | Status |
 |:---:|:---:|:--:|:--:|:---:|
-|   1  |   Flash to the Bluepill   |  2   | done |
-|   2  |   Flash to the LoRa-E5    |  3   |      |
+|   1  |   Flash to the Bluepill   |  2   | Done |
+|   2  |   Use LoRa-E5             |  3   |      |
 |   3  |   Use ST-Link V2          |  1   |      |
-|   4  |     |     |     |     |
-|   5  |     |     |     |     |
-|   6  |     |     |     |     |
-
+|   4  |                           |      |      |
+|   5  |                           |      |      |
+|   6  |                           |      |      |
 
 ---
 

@@ -2,10 +2,10 @@
 
 ## Stakeolders
 
-| Person/Organization | Role              |
-| :-----------------: | :---------------: |
-| SignAll             | Customers         |
-| Tanguy HERRMANN     | Tech Consultant   |
+| Person/Organization | Role                            |
+| :-----------------: | :-----------------------------: |
+| SignAll             | Customers                       |
+| Tanguy HERRMANN     | Tech Consultant                 |
 | Théo TROUVE         | Tech Leader & Project Manager   |
 | Alexandre BOBIS     | Tech Leader & Program Manager   |
 | Nicolas MIDA        | Tech Leader & Software Engineer |
@@ -14,7 +14,6 @@
 ---
 
 <details close>
-
 <summary>Table of contents</summary><blockquote>
 
 - [Technical Specifications](#technical-specifications)
@@ -42,7 +41,7 @@
 
 ### 1.1. Main device
 
-It is designed to be hosted on a LoRa-E5 development kit[^1] which is a compact and easy to use development toolkit.
+It is designed to be hosted on a LoRa-E5 development kit[^1] which is a compact development toolkit.
 
 ### 1.2. Modules
 
@@ -77,7 +76,7 @@ We are going to use Go language and the framework TinyGo[^2] to develop the proj
 
 ### 2.2. Output
 
-We are going to show the status of the signage on a web page. The web page will be hosted on a server. The server will be hosted on The Things Network[^4] (TTN) and will be accessible from anywhere.
+We want to show the status of the signage on a web page. The web page will be hosted on a server. The server will be hosted on The Things Network[^4] (TTN) and will be accessible from anywhere and for everyone who gets the "access".
 
 ## 3. Data
 
@@ -108,14 +107,18 @@ The data will be composed by the following fields:
 
 ### 4.3 Tests
 
-Here is a link to the [test](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/tests/) folder with a *test plan* markdown and a *bug order* markdown.
+Here is a link to the [tests documents](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/tests/) folder with a *test plan* markdown and a *bug order* markdown.
+
+Here is a link to the [functions & tests](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/functions_&_tests/) folder with *functions.go* and *functions_tests.go*.
 
 ## 5. Glosary
 
 [^1]: [LoRa-E5 Development Kit](https://www.st.com/en/partner-products-and-services/lora-e5-development-kit.html#overview) consists of a LoRa-E5 Dev Board, an antenna, a USB type C cable, and a 2*AA 3V Battery Holder. It's a module that supports LoRaWAN protocol on global frequency band.
 
 [^2]: [TinyGo](https://tinygo.org/) is a Go compiler for small places. It compiles Go programs to small executables that can be run on microcontrollers, WebAssembly, and command-line tools. It is based on LLVM, so it supports a wide range of microcontrollers and other platforms.
+![Go](https://imgs.search.brave.com/juFbFNPHdkx1Uvmt6s4bVYL9Y34QQZddzJ1RrKNTrW0/rs:fit:1200:890:1/g:ce/aHR0cHM6Ly9taXJv/Lm1lZGl1bS5jb20v/bWF4LzMxNTIvMCo3/dlE4ZVJjMjh5ejlr/X19yLnBuZw)
 
 [^3]: [LLVM](https://en.wikipedia.org/wiki/LLVM) is a compiler infrastructure project that includes a collection of modular and reusable compiler and toolchain technologies. The name LLVM originally seans *Low Level Virtual Machine*.
 
 [^4]: [The Things Network](https://www.thethingsnetwork.org) provides a set of open tools and a global, open network to build IoT application at low cost, featuring maximum security and ready to scale.
+![The Things Network](https://imgs.search.brave.com/b37niRBmbsecEFea46VqDEZ2_8kKYS2ZG572YQKyXpA/rs:fit:1200:1172:1/g:ce/aHR0cHM6Ly93d3cu/aG9tZWFuZHNtYXJ0/LmRlL3Zhci9zaXRl/L3N0b3JhZ2UvaW1h/Z2VzLzYvMC8wLzYv/MjYwMDYtMi1nZXIt/REUvVGhlJTIwdGhp/bmdzJTIwbmV0d29y/ayUyMGxvZ28lMjBD/cm9wcGVkLnBuZw)
