@@ -1,16 +1,28 @@
-package main
+package function
 
-import "testing"
+import (
+	"testing"
+)
 
-func Testlight1(t *testing.T) {
+func TestLight1(t *testing.T) {
 	got := light1(3)
-	want := true
+	want := false
 	if got != want {
-		return Error("LED's should be off")
+		t.Error("LED's should be off")
 	}
 }
 
+var LEDS = [5]int{11, 110, 0, 10, 10}
+
 // // TestLight2 is a test function for light2
+func TestLight2(t *testing.T) {
+	got := ligth2(LEDS)
+	want := false
+	if got != want {
+		t.Error("LED's should be off")
+	}
+}
+
 // func TestLight2(t *testing.T) {
 // 	got := rand.Intn(10, 100),
 // 	want := 10

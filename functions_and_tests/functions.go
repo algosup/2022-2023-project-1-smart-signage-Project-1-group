@@ -1,7 +1,12 @@
-package main
+package function
 
-func light1(hourvar int) bool {
-	if hourvar >= 6 && hourvar <= 1 {
+type hour struct {
+	hourvar int
+}
+
+func light1(hh int) bool {
+	h := hour{hh}
+	if h.hourvar >= 6 && h.hourvar <= 1 {
 		return true
 	}
 	return false
@@ -9,7 +14,16 @@ func light1(hourvar int) bool {
 
 // // This function is used to see if a light is not working when it's supposed to be on
 
-// var LEDS = [5]bool{true, true, true, false, true}
+// var LEDS = [5]int{11,110,0,10,10}
+func light2(LEDS int) bool {
+	for c := 0; c < len(LEDS); c++ {
+		d := LEDS[c]
+		t:= 10
+		if  t >= d || d <= 0 {
+			return false
+		}
+		return true 
+}
 
 // func light2(LEDS){
 // 	for c := 0; c < len(LEDS); c++ {
