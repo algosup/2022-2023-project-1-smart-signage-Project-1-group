@@ -7,6 +7,8 @@ type volt struct {
 	voltage int
 }
 
+// This function is used to switch off the lights between 1am and 6am
+
 func lightstatus(hh int) bool {
 	h := hour{hh}
 	if h.hourvar >= 6 && h.hourvar <= 1 {
@@ -25,7 +27,7 @@ func lightsvoltage(vv int) bool {
 	return false
 }
 
-// This function check if lights are on or off
+// This function is used to check if lights are on or off
 
 func lightsonoff(vv int) int {
 	v := volt{vv}

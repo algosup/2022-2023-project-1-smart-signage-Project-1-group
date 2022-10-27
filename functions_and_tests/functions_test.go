@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+// This test uses the function lightstatus
 func TestLightstatus(t *testing.T) {
 	got := lightstatus(3)
 	want := false
@@ -12,6 +13,7 @@ func TestLightstatus(t *testing.T) {
 	}
 }
 
+// This test uses the function lightvoltage
 func TestLightsvoltage(t *testing.T) {
 	got := lightsvoltage(230)
 	want := true
@@ -20,6 +22,7 @@ func TestLightsvoltage(t *testing.T) {
 	}
 }
 
+// This test uses the function lightsonoff
 func TestLightsonoff(t *testing.T) {
 	got := lightsonoff(230)
 	want := 0
