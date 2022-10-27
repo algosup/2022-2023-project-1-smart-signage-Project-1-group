@@ -27,11 +27,11 @@ The goal of the project is to provide to SignAll a new product for them, that wi
 - 3rd week
   - [x] Searching informations about the software
 - 4th week
-  - [ ] Use the LoRa-E5
-  - [ ] Work on the software
+  - [x] Use the LoRa-E5
+  - [x] Work on the software
 - 5th week
-  - [ ] Functional Specifications 2.0
-  - [ ] Technical Specifications 2.0
+  - [x] Functional Specifications 2.0
+  - [x] Technical Specifications 2.0
   - [ ] Finish the project
   - [ ] Oral presentation
 
