@@ -103,13 +103,13 @@ The data will be composed by the following fields:
 
 ### 4.2 Software environment
 
-// INSERT CODE HERE
+Here is a link to the [functions](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/Appsolu/) folder with a *test plan* markdown and a *bug order* markdown.
 
 ### 4.3 Tests
 
 Here is a link to the [tests documents](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/documents/tests/) folder with a *test plan* markdown and a *bug order* markdown.
 
-Here is a link to the [functions and tests](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/functions_and_tests/) folder with *functions.go* and *functions_test.go*.
+Here is a link to the [tests](https://github.com/algosup/2022-2023-project-1-smart-signage-Project-1-group/blob/main/Tests/) folder with *functions.go* and *functions_test.go*.
 
 ## 5. Glosary
 
